@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles .css">
+    <!-- <script src="https://kit.fontawesome.com/c89b1e2da7.js" crossorigin="anonymous"></script> -->
+</head>
+<body>
+    <div id="container">
+        <div id="top">
+            <img src="dev-647424-unsplash.jpg" alt="">
+            <h5 id="date"></h5>
+            <h1 id="total">0.00</h1>
+            <div id="inc_disp">
+                <h4>INCOME</h4>
+                <h4 id="total_inc">0.00</h4>
+            </div>
+            <div id="exp_disp">
+                <h4>EXPENSES</h4>
+                <h4 id="total_exp">0.00</h4>
+            </div>
+        </div>
+        <div id="mid">
+            <div id="mid_container">
+                <select>
+                    <option id="inc" value="+" selected>+</option>
+                    <option id="exp" value="-">-</option>
+                </select>
+                <input type="text" placeholder="Add discription" id="discription">
+                <input type="number" placeholder="Value" id="value">
+            </div>
+        </div>
+        <div id="down">
+            <div class="income">
+                <h3>INCOME</h3> 
+                <div class="income_list_container">
+                    <!-- <div id="inc_1" class="income_list">
+                        <h4 class="income_list_disc">Car</h4>
+                        <div class="income_list_val">+1800</div>
+                        <button class="delete">x</button>
+                    </div> -->
+                </div>             
+            </div>
+            <div class="expenses">
+                <h3>EXPENSES</h3>
+                <div class="expenses_list_container">
+                    <!-- <div id="exp_1" class="expenses_list">
+                        <h4 class="expenses_list_disc">Car</h4>
+                        <div class="expenses_list_val">+1800</div>
+                        <button class="delete">x</button>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
